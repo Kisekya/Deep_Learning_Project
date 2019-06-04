@@ -1,0 +1,49 @@
+/*
+Author : Marina Boudin, Coralie Muller
+*/
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+body{
+  color:#cc2900;
+  margin: 0px;
+  background-color: #333333;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  color:#cc2900;
+  background-color:#333333;
+  margin-top:0px;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+  border: solid #cc2900 3px;
+}
+li{
+  float:left;
+}
+li a:hover{
+  color: #333333;
+  background-color: #cc2900;
+}
+a{
+  text-decoration: none;
+  color:#cc2900;
+  background-color: transparent;
+  padding: 14px 16px;
+  font-weight: bold;
+  display: block;
+}
+button{
+  font-size: 15px;
+  color: #333333;
+  background-color: #cc2900;
+  cursor:pointer;
+  text-align: center;
+  vertical-align: middle;
+  border: #cc2900;
+}
+button:hover{
+  color:#cc2900;
+  background-color: #333333;
+  border: 1px solid #cc2900;
+}
