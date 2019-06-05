@@ -17,6 +17,8 @@ ul {
   border: solid #cc2900 3px;
 }
 .ul-analysis-bar{
+  border:none;
+  border-left: solid #cc2900 3px;
   background-color: #cc2900;
 }
 li{
