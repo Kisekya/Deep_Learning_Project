@@ -10,13 +10,14 @@ body{
 }
 ul {
   list-style-type: none;
-  color:#cc2900;
-  background-color:#333333;
-  margin-top:0px;
+  margin:0px;
   padding: 0;
   overflow: hidden;
   display: block;
   border: solid #cc2900 3px;
+}
+.ul-analysis-bar{
+  background-color: #cc2900;
 }
 li{
   float:left;
@@ -25,6 +26,11 @@ li a:hover{
   color: #333333;
   background-color: #cc2900;
 }
+.li-analysis-bar{
+  color: #333333;
+  background-color: #cc2900;
+  margin:0px;
+}
 a{
   text-decoration: none;
   color:#cc2900;
@@ -32,6 +38,13 @@ a{
   padding: 14px 16px;
   font-weight: bold;
   display: block;
+}
+.a-analysis-bar{
+  color: #333333;
+}
+.a-analysis-bar:hover{
+  color: #cc2900;
+  background-color: #333333;
 }
 button{
   font-size: 15px;
