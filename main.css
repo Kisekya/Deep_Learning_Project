@@ -47,10 +47,7 @@ a{
 }
 .a-analysis-bar{
   color: #333333;
-}
-.a-analysis-bar:hover{
-  color: #cc2900;
-  background-color: #333333;
+  cursor: pointer;
 }
 button{
   font-size: 16px;
