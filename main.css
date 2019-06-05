@@ -1,11 +1,13 @@
 /*
 Author : Marina Boudin, Coralie Muller
+
+Theme sombre #333333 #262626 #cc2900
 */
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 body{
   color:#cc2900;
   margin: 0px;
-  background-color: #333333;
+  background-image:url("https://images.ecosia.org/tNPSl-v8r8vhWd-xAsB5lcz8xi0=/0x390/smart/http%3A%2F%2F31.media.tumblr.com%2Fc83af831caebce77b07a6f2891ea60b9%2Ftumblr_mf3wabFszx1rc7pm9o1_500.gif");
   text-align: center;
 }
 ul {
@@ -14,9 +16,9 @@ ul {
   padding: 0;
   overflow: hidden;
   display: block;
-  background-color: #262626;
+  background-color: #f2f2f2;
   border: solid #cc2900 3px;
-  box-shadow:0 2px 5px 0 black, 0 2px 10px 0 black;
+  box-shadow:0 2px 5px 0 #999999, 0 2px 10px 0 #999999;
 }
 .ul-analysis-bar{
   border:none;
@@ -29,11 +31,11 @@ li{
   float:left;
 }
 li a:hover{
-  color: #262626;
+  color: #f2f2f2;
   background-color: #cc2900;
 }
 .li-analysis-bar{
-  color: #333333;
+  color: #ffffff;
   background-color: #cc2900;
   margin:0px;
 }
@@ -46,32 +48,46 @@ a{
   display: block;
 }
 .a-analysis-bar{
-  color: #333333;
+  color: #ffffff;
   cursor: pointer;
 }
 button{
   font-size: 16px;
-  color: #262626;
+  color: #f2f2f2;
   background-color: #cc2900;
   cursor:pointer;
   text-align: center;
   vertical-align: middle;
-  border: 1px solid black;
+  border: 1px solid #999999;
 }
 button:hover{
   color:#cc2900;
-  background-color: #262626;
+  background-color: #f2f2f2;
   border: 1px solid #cc2900;
 }
 
 div{
   margin-top: 2%;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
   color: #cc2900;
-  background-color: #262626;
-  margin-left: 20%;
-  margin-right: 20%;
-  box-shadow: 0 2px 5px 0 black, 0 2px 10px 0 black;
-  padding: 0.01em 16px;
+  background-color: #f2f2f2;
+  margin-left: 25%;
+  margin-right: 25%;
+  box-shadow: 0 2px 5px 0 #999999, 0 2px 10px 0 #999999;
   border: solid 1px #cc2900;
+  padding: 20px;
+}
+
+.div_select_data{
+  text-align: left;
+}
+
+.file{
+  font-size: 14px;
+  color: #f2f2f2;
+  background-color: #cc2900;
+  cursor:pointer;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #999999;
 }

@@ -8,12 +8,12 @@ function move_onglet(volet){
     if (select_one===obj.name){
       var onglet = document.getElementById(select_one);
       onglet.style.color="#cc2900";
-      onglet.style.backgroundColor="#333333";
+      onglet.style.backgroundColor="#ffffff";
       division.style.display="block";
     }
     else{
       var onglet = document.getElementById(obj.name);
-      onglet.style.color="#333333";
+      onglet.style.color="#ffffff";
       onglet.style.backgroundColor="#cc2900";
       division.style.display="none";
     }
