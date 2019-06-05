@@ -9,14 +9,20 @@
   html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
 </head>
-<ul>
-  <li><a href="main.html">HOME</a></li>
-  <li><a href="Analysis/Analysis.html">Analysis</a></li>
-  <li><a href="tutorial.html">Tutorial</a></li>
-  <li><a href="source.html">Source</a></li>
-  <li><a href="help.html">Help</a></li>
+<ul class="ul-main-bar">
+  <li class="li-main-bar"><a class="a-main-bar" href="main.html" id="HOME" style="color:#262626;background-color:#cc2900">HOME</a></li>
+  <li class="li-main-bar"><a class="a-Analysis-bar" href="Analysis/Analysis.html" id="Analysis">Analysis</a></li>
+  <li class="li-main-bar"><a class="a-Tutorial-bar" href="tutorial.html" id="Tutorial">Tutorial</a></li>
+  <li class="li-main-bar"><a class="a-Source-bar" href="Source.html" id="Source">Source</a></li>
+  <li class="li-main-bar"><a class="a-Help-bar" href="Help.html" id="Help">Help</a></li>
 </ul>
 <body>
-  <h1> Welcome on BioinfoDLNN ! </h1>
-  <a href="analysis.html"><button> Start an analysis </button></a>
+  <div class="div-main" id="div-main">
+    <h1> Welcome on BioinfoDLNN ! </h1>
+    <a href="Analysis/Analysis.html"><button> Start an analysis </button></a>
+    <div class="div-presentation" id="div-presentation">
+      <h2> Project presentation </h2>
+      <p> Network platform for deep learning neural network realised by two students in the Master of Bioinformatics of the University of Bordeaux : Marina Boudin and Coralie Muller.
+      </div>
+  </div>
 </body>
