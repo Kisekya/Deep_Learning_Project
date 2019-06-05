@@ -78,10 +78,6 @@ div{
   padding: 20px;
 }
 
-.div_select_data{
-  text-align: left;
-}
-
 .file{
   font-size: 14px;
   color: #f2f2f2;
@@ -90,4 +86,15 @@ div{
   text-align: center;
   vertical-align: middle;
   border: 1px solid #999999;
+}
+
+.div-presentation{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.div-select-data {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
 }
