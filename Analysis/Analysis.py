@@ -2,6 +2,7 @@
 
 import numpy
 import torch
+from copy import*
 from torchvision import*
 
 # Fonctions
@@ -52,16 +53,30 @@ def read_the_file(name):
     for lign in file.readlines():
         if not lign:
             break
-        my_lign=lign.split(",")
-        my_lign[1]=my_lign[1][0]
+        lign=lign.split(",")
+        my_lign=[]
+        for element in lign:
+            element=element.split()
+            if len(element)!=0:
+                try:
+                    element=float(element[0])
+                    my_lign.append(element)
+                except ValueError:
+                    my_lign.append(element[0])
         my_file.append(my_lign)
     file.close()
     return my_file
 
 # Main
 
-my_file="Race.csv"
+my_file="iris.csv"
 my_data=read_the_file(my_file)
+my_numerical_data=[]
+for data in my_data:
+    new_one=deepcopy(data)
+    new_one.pop(0)
+    my_numerical_data.append(new_one)
+my_tensor=torch.tensor(my_numerical_data)
 
 input=torch.randn(3,5,requires_grad=True)
 target=torch.randn(3,5)
