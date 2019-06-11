@@ -40,7 +40,7 @@ def main():
   T.manual_seed(1);  np.random.seed(1)
   # 1. load data
   print("Loading Iris data into memory \n")
-  train_file = "iris.csv"
+  train_file = "iris3.csv"
   # test_file = ".\\Data\\iris_test.txt"
   train_x = np.loadtxt(train_file, usecols=range(0,4),
     delimiter=",",  skiprows=0, dtype=np.float32)

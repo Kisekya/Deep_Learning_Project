@@ -2,8 +2,25 @@
 
 import numpy
 import torch
-from copy import*
-from torchvision import*
+import copy
+import torchvision
+
+# Classes
+
+class Neural_network(torch.nn.Module):
+    def __init__(self):
+        super(Neural_network,self).__init__()
+        self.connected_layer_1=torch.nn.Linear(4,7)
+        torch.nn.init.xavier_uniform_(self.connected_layer_1.weight)
+        torch.nn.init.zeros_(self.connected_layer_1.bias)
+        self.connected_layer_2=torch.nn.Linear(7,3)
+        torch.nn.init.xavier_uniform_(self.connected_layer_2.weight)
+        torch.nn.init.zeros_(self.connected_layer_2.bias)
+    def forward(self,x):
+        z=torch.tanh(self.connected_layer_1(x))
+        z=self.connected_layer_2(z)
+        return z
+
 
 # Fonctions
 
@@ -70,13 +87,9 @@ def read_the_file(name):
 # Main
 
 my_file="iris.csv"
-my_data=read_the_file(my_file)
-my_numerical_data=[]
-for data in my_data:
-    new_one=deepcopy(data)
-    new_one.pop(0)
-    my_numerical_data.append(new_one)
-my_tensor=torch.tensor(my_numerical_data)
+# my_data=read_the_file(my_file)
+train_x=numpy.loadtxt(my_file, usecols=range(0,4),delimiter=",",skiprows=0,dtype=numpy.float32)
+train_y=numpy.loadtxt(my_file, usecols=[4],delimiter=",",skiprows=0,dtype=numpy.float32)
 
 input=torch.randn(3,5,requires_grad=True)
 target=torch.randn(3,5)
