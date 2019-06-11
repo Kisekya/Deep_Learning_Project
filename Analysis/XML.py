@@ -50,7 +50,7 @@ def create_XML(data):
             name.appendChild(val)
         name.setAttributeNode(valeur)
         racine.appendChild(name)
-    my_xml=my_doc.toxml()
+    my_xml=my_doc.toprettyxml()
     return my_xml
 
 def create_xml_file(xml):

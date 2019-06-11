@@ -1,1 +1,87 @@
-<?xml version="1.0" ?><root Description="Begining of the datas"><Data_1 Lign="['Husky', 1.0]"><Col_0 Value="Husky"/><Col_1 Value="1.0"/></Data_1><Data_2 Lign="['Cocker', 1.0]"><Col_0 Value="Cocker"/><Col_1 Value="1.0"/></Data_2><Data_3 Lign="['Chihuahua', 1.0]"><Col_0 Value="Chihuahua"/><Col_1 Value="1.0"/></Data_3><Data_4 Lign="['Ecaille_de_tortue', 2.0]"><Col_0 Value="Ecaille_de_tortue"/><Col_1 Value="2.0"/></Data_4><Data_5 Lign="['Pincher_nain', 1.0]"><Col_0 Value="Pincher_nain"/><Col_1 Value="1.0"/></Data_5><Data_6 Lign="['Maine_coon', 2.0]"><Col_0 Value="Maine_coon"/><Col_1 Value="2.0"/></Data_6><Data_7 Lign="['Jack_russel', 1.0]"><Col_0 Value="Jack_russel"/><Col_1 Value="1.0"/></Data_7><Data_8 Lign="['Siamois', 2.0]"><Col_0 Value="Siamois"/><Col_1 Value="2.0"/></Data_8><Data_9 Lign="['Persans', 2.0]"><Col_0 Value="Persans"/><Col_1 Value="2.0"/></Data_9><Data_10 Lign="['Bouledogue', 1.0]"><Col_0 Value="Bouledogue"/><Col_1 Value="1.0"/></Data_10><Data_11 Lign="['Munchkin', 2.0]"><Col_0 Value="Munchkin"/><Col_1 Value="2.0"/></Data_11><Data_12 Lign="['Bouvier_bernois', 1.0]"><Col_0 Value="Bouvier_bernois"/><Col_1 Value="1.0"/></Data_12><Data_13 Lign="['Abyssin', 2.0]"><Col_0 Value="Abyssin"/><Col_1 Value="2.0"/></Data_13><Data_14 Lign="['Bengal', 2.0]"><Col_0 Value="Bengal"/><Col_1 Value="2.0"/></Data_14><Data_15 Lign="['Beagle', 1.0]"><Col_0 Value="Beagle"/><Col_1 Value="1.0"/></Data_15><Data_16 Lign="['Berger_australien', 1.0]"><Col_0 Value="Berger_australien"/><Col_1 Value="1.0"/></Data_16><Data_17 Lign="['Safari', 2.0]"><Col_0 Value="Safari"/><Col_1 Value="2.0"/></Data_17><Data_18 Lign="['Savannah', 2.0]"><Col_0 Value="Savannah"/><Col_1 Value="2.0"/></Data_18><Data_19 Lign="['Sphynx', 2.0]"><Col_0 Value="Sphynx"/><Col_1 Value="2.0"/></Data_19><Data_20 Lign="['Bichon', 1.0]"><Col_0 Value="Bichon"/><Col_1 Value="1.0"/></Data_20><Data_21 Lign="['Dalmatien', 1.0]"><Col_0 Value="Dalmatien"/><Col_1 Value="1.0"/></Data_21></root>
+<?xml version="1.0" ?>
+<root Description="Begining of the datas">
+	<Data_1 Lign="['Husky', 1.0]">
+		<Col_0 Value="Husky"/>
+		<Col_1 Value="1.0"/>
+	</Data_1>
+	<Data_2 Lign="['Cocker', 1.0]">
+		<Col_0 Value="Cocker"/>
+		<Col_1 Value="1.0"/>
+	</Data_2>
+	<Data_3 Lign="['Chihuahua', 1.0]">
+		<Col_0 Value="Chihuahua"/>
+		<Col_1 Value="1.0"/>
+	</Data_3>
+	<Data_4 Lign="['Ecaille_de_tortue', 2.0]">
+		<Col_0 Value="Ecaille_de_tortue"/>
+		<Col_1 Value="2.0"/>
+	</Data_4>
+	<Data_5 Lign="['Pincher_nain', 1.0]">
+		<Col_0 Value="Pincher_nain"/>
+		<Col_1 Value="1.0"/>
+	</Data_5>
+	<Data_6 Lign="['Maine_coon', 2.0]">
+		<Col_0 Value="Maine_coon"/>
+		<Col_1 Value="2.0"/>
+	</Data_6>
+	<Data_7 Lign="['Jack_russel', 1.0]">
+		<Col_0 Value="Jack_russel"/>
+		<Col_1 Value="1.0"/>
+	</Data_7>
+	<Data_8 Lign="['Siamois', 2.0]">
+		<Col_0 Value="Siamois"/>
+		<Col_1 Value="2.0"/>
+	</Data_8>
+	<Data_9 Lign="['Persans', 2.0]">
+		<Col_0 Value="Persans"/>
+		<Col_1 Value="2.0"/>
+	</Data_9>
+	<Data_10 Lign="['Bouledogue', 1.0]">
+		<Col_0 Value="Bouledogue"/>
+		<Col_1 Value="1.0"/>
+	</Data_10>
+	<Data_11 Lign="['Munchkin', 2.0]">
+		<Col_0 Value="Munchkin"/>
+		<Col_1 Value="2.0"/>
+	</Data_11>
+	<Data_12 Lign="['Bouvier_bernois', 1.0]">
+		<Col_0 Value="Bouvier_bernois"/>
+		<Col_1 Value="1.0"/>
+	</Data_12>
+	<Data_13 Lign="['Abyssin', 2.0]">
+		<Col_0 Value="Abyssin"/>
+		<Col_1 Value="2.0"/>
+	</Data_13>
+	<Data_14 Lign="['Bengal', 2.0]">
+		<Col_0 Value="Bengal"/>
+		<Col_1 Value="2.0"/>
+	</Data_14>
+	<Data_15 Lign="['Beagle', 1.0]">
+		<Col_0 Value="Beagle"/>
+		<Col_1 Value="1.0"/>
+	</Data_15>
+	<Data_16 Lign="['Berger_australien', 1.0]">
+		<Col_0 Value="Berger_australien"/>
+		<Col_1 Value="1.0"/>
+	</Data_16>
+	<Data_17 Lign="['Safari', 2.0]">
+		<Col_0 Value="Safari"/>
+		<Col_1 Value="2.0"/>
+	</Data_17>
+	<Data_18 Lign="['Savannah', 2.0]">
+		<Col_0 Value="Savannah"/>
+		<Col_1 Value="2.0"/>
+	</Data_18>
+	<Data_19 Lign="['Sphynx', 2.0]">
+		<Col_0 Value="Sphynx"/>
+		<Col_1 Value="2.0"/>
+	</Data_19>
+	<Data_20 Lign="['Bichon', 1.0]">
+		<Col_0 Value="Bichon"/>
+		<Col_1 Value="1.0"/>
+	</Data_20>
+	<Data_21 Lign="['Dalmatien', 1.0]">
+		<Col_0 Value="Dalmatien"/>
+		<Col_1 Value="1.0"/>
+	</Data_21>
+</root>
