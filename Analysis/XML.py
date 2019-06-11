@@ -50,10 +50,15 @@ def create_XML(data):
             name.appendChild(val)
         name.setAttributeNode(valeur)
         racine.appendChild(name)
-    my_doc.toxml()
-    print(my_doc.toprettyxml())
+    my_xml=my_doc.toxml()
+    return my_xml
 
+def create_xml_file(xml):
+    fichier=open("file.xml","w")
+    fichier.write(xml)
+    fichier.close()
 
 if __name__=="__main__":
     data=read_the_file("Race.csv")
-    create_XML(data)
+    xml=create_XML(data)
+    create_xml_file(xml)
