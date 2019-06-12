@@ -9,8 +9,8 @@ function result_python(response){
 
 function call_python(file_name){
   $.ajax({
-    url:'~/Test.py',
-    type:'GET',
+    url:'Test.py',
+    type:'POST',
     data:{ param:file_name},
     success:function(response){
       result_python(response);
