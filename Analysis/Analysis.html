@@ -29,9 +29,15 @@
     <div class="div-select-data" id="div-select-data">
       <h2> Open your file </h2>
       <form>
-        <input type='file' id="my_data" class="file">
+        <input type='file' id="my_data" class="file" accept=".csv">
       </form>
       <p><h4> HELP</h4> Your file must be in CSV format with the name/path of the data in the first column </p>
+      <p><h4> WARNING</h4> A generated XML file is gonna be created and saved in the same repository than the uploaded file</p>
+      <button id="upload"> Upload my file </button>
+      <p id="data_upload_state" style="display:none;"> No file selected </p>
+    </div>
+    <div class="div-visualisation" id="div-visualisation">
+
     </div>
   </div>
   <div class="div-Model" id="div-Model" style="display:none;">
@@ -47,5 +53,6 @@
     <h1> Results </h1>
     <iframe src="http://127.0.0.1:5000/" id="my-iframe" scrolling="yes"></iframe>
   </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="Analysis.js"></script>
 </body>
