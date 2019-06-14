@@ -9,8 +9,11 @@ function result_python(response){
 
 function call_python(file_name){
   $.post({
+    type:'get',
     url:'Test.py',
-    data:file_name,
+    datatype:'json',
+    cache:false,
+    async:'asynchronous',
     success:function(response){
       result_python(response);
     },
