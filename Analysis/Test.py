@@ -1,8 +1,9 @@
-import cgi,cgitb
+from flask import Flask
 
-form = cgi.FieldStorage()
+app=Flask(__name__)
+@app.route("/")
+def main():
+    return "coucou"
 
-data=form.getvalue('my_data')
-
-print("Content-type:text/html\r\n\r\n")
-print("<body><p>%s</p></body>"%(data))
+if __name__="__main__":
+    app.run()
