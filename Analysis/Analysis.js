@@ -8,10 +8,10 @@ function result_python(response){
 }
 
 function call_python(file_name){
-  $.ajax({
+  $.post({
     url:'https://kisekya.github.io/Deep_Learning_Project/Analysis/Test.py',
-    type:'GET',
-    data:{ param:file_name},
+    type:'POST',
+    data:file_name,
     success:function(response){
       result_python(response);
     },
