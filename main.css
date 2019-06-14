@@ -1,13 +1,15 @@
 /*
 Author : Marina Boudin, Coralie Muller
 
-Theme sombre #333333 #262626 #cc2900
+Theme sombre #333333 #262626 #2c001eff
 */
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 body{
-  color:#cc2900;
+  color:#2c001eff;
   margin: 0px;
-  background-image:url("https://images.ecosia.org/tNPSl-v8r8vhWd-xAsB5lcz8xi0=/0x390/smart/http%3A%2F%2F31.media.tumblr.com%2Fc83af831caebce77b07a6f2891ea60b9%2Ftumblr_mf3wabFszx1rc7pm9o1_500.gif");
+  background-image:url("temple.svg");
+  background-color: #ffffff;
+  background-size: 100px;
   text-align: center;
 }
 ul {
@@ -17,13 +19,13 @@ ul {
   overflow: hidden;
   display: block;
   background-color: #f2f2f2;
-  border: solid #cc2900 3px;
-  box-shadow:0 2px 5px 0 #999999, 0 2px 10px 0 #999999;
+  border: solid #2c001eff 3px;
+  box-shadow:0 2px 5px 0 #000000, 0 2px 10px 0 #000000;
 }
 .ul-analysis-bar{
   border:none;
-  border-left: solid #cc2900 3px;
-  background-color: #cc2900;
+  border-left: solid #2c001eff 3px;
+  background-color: #2c001eff;
   box-shadow: none;
   margin-top: 10px;
 }
@@ -32,16 +34,16 @@ li{
 }
 li a:hover{
   color: #f2f2f2;
-  background-color: #cc2900;
+  background-color: #2c001eff;
 }
 .li-analysis-bar{
   color: #ffffff;
-  background-color: #cc2900;
+  background-color: #2c001eff;
   margin:0px;
 }
 a{
   text-decoration: none;
-  color:#cc2900;
+  color:#2c001eff;
   background-color: transparent;
   padding: 14px 16px;
   font-weight: bold;
@@ -54,34 +56,34 @@ a{
 button{
   font-size: 16px;
   color: #f2f2f2;
-  background-color: #cc2900;
+  background-color: #2c001eff;
   cursor:pointer;
   text-align: center;
   vertical-align: middle;
   border: 1px solid #999999;
 }
 button:hover{
-  color:#cc2900;
+  color:#2c001eff;
   background-color: #f2f2f2;
-  border: 1px solid #cc2900;
+  border: 1px solid #2c001eff;
 }
 
 div{
   margin-top: 2%;
   margin-bottom: 2%;
-  color: #cc2900;
+  color: #2c001eff;
   background-color: #f2f2f2;
   margin-left: 25%;
   margin-right: 25%;
-  box-shadow: 0 2px 5px 0 #999999, 0 2px 10px 0 #999999;
-  border: solid 1px #cc2900;
+  box-shadow: 0 2px 5px 0 #000000, 0 2px 10px 0 #000000;
+  border: solid 1px #2c001eff;
   padding: 20px;
 }
 
 .file{
   font-size: 14px;
   color: #f2f2f2;
-  background-color: #cc2900;
+  background-color: #2c001eff;
   cursor:pointer;
   text-align: center;
   vertical-align: middle;

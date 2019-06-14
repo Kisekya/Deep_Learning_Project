@@ -96,11 +96,3 @@ input=torch.randn(3,5,requires_grad=True)
 target=torch.randn(3,5)
 output=mean_absolute_error(input,target)
 print(output)
-
-app=Flask(__name__)
-@app.route("/")
-def main():
-    return "coucou"
-
-if __name__="__main__":
-    main()
