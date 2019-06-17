@@ -1,3 +1,6 @@
+# Author Marina Boudin Coralie Muller
+
+
 from xml.dom import minidom
 
 # doc= minidom.Document()
@@ -59,6 +62,6 @@ def create_xml_file(xml):
     fichier.close()
 
 if __name__=="__main__":
-    data=read_the_file("Race.csv")
+    data=read_the_file("iris2.csv")
     xml=create_XML(data)
     create_xml_file(xml)

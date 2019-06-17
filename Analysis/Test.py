@@ -1,3 +1,6 @@
+# Author Marina Boudin Coralie Muller
+
+
 class MyHandler(SimpleHTTPRequestHandler):
     def do_HEAD(self):
         self.send_response(200)

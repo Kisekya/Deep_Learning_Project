@@ -1,87 +1,1053 @@
 <?xml version="1.0" ?>
 <root Description="Begining of the datas">
-	<Data_1 Lign="['Husky', 1.0]">
-		<Col_0 Value="Husky"/>
-		<Col_1 Value="1.0"/>
+	<Data_1 Lign="[0.0, 5.1, 3.5, 1.4, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.1"/>
+		<Col_2 Value="3.5"/>
+		<Col_3 Value="1.4"/>
+		<Col_4 Value="0.2"/>
 	</Data_1>
-	<Data_2 Lign="['Cocker', 1.0]">
-		<Col_0 Value="Cocker"/>
-		<Col_1 Value="1.0"/>
+	<Data_2 Lign="[0.0, 4.9, 3.0, 1.4, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.9"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="1.4"/>
+		<Col_4 Value="0.2"/>
 	</Data_2>
-	<Data_3 Lign="['Chihuahua', 1.0]">
-		<Col_0 Value="Chihuahua"/>
-		<Col_1 Value="1.0"/>
+	<Data_3 Lign="[0.0, 4.7, 3.2, 1.3, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.7"/>
+		<Col_2 Value="3.2"/>
+		<Col_3 Value="1.3"/>
+		<Col_4 Value="0.2"/>
 	</Data_3>
-	<Data_4 Lign="['Ecaille_de_tortue', 2.0]">
-		<Col_0 Value="Ecaille_de_tortue"/>
-		<Col_1 Value="2.0"/>
+	<Data_4 Lign="[0.0, 4.6, 3.1, 1.5, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.6"/>
+		<Col_2 Value="3.1"/>
+		<Col_3 Value="1.5"/>
+		<Col_4 Value="0.2"/>
 	</Data_4>
-	<Data_5 Lign="['Pincher_nain', 1.0]">
-		<Col_0 Value="Pincher_nain"/>
-		<Col_1 Value="1.0"/>
+	<Data_5 Lign="[0.0, 5.0, 3.6, 1.4, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.0"/>
+		<Col_2 Value="3.6"/>
+		<Col_3 Value="1.4"/>
+		<Col_4 Value="0.2"/>
 	</Data_5>
-	<Data_6 Lign="['Maine_coon', 2.0]">
-		<Col_0 Value="Maine_coon"/>
-		<Col_1 Value="2.0"/>
+	<Data_6 Lign="[0.0, 5.4, 3.9, 1.7, 0.4]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.4"/>
+		<Col_2 Value="3.9"/>
+		<Col_3 Value="1.7"/>
+		<Col_4 Value="0.4"/>
 	</Data_6>
-	<Data_7 Lign="['Jack_russel', 1.0]">
-		<Col_0 Value="Jack_russel"/>
-		<Col_1 Value="1.0"/>
+	<Data_7 Lign="[0.0, 4.6, 3.4, 1.4, 0.3]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.6"/>
+		<Col_2 Value="3.4"/>
+		<Col_3 Value="1.4"/>
+		<Col_4 Value="0.3"/>
 	</Data_7>
-	<Data_8 Lign="['Siamois', 2.0]">
-		<Col_0 Value="Siamois"/>
-		<Col_1 Value="2.0"/>
+	<Data_8 Lign="[0.0, 5.0, 3.4, 1.5, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.0"/>
+		<Col_2 Value="3.4"/>
+		<Col_3 Value="1.5"/>
+		<Col_4 Value="0.2"/>
 	</Data_8>
-	<Data_9 Lign="['Persans', 2.0]">
-		<Col_0 Value="Persans"/>
-		<Col_1 Value="2.0"/>
+	<Data_9 Lign="[0.0, 4.4, 2.9, 1.4, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.4"/>
+		<Col_2 Value="2.9"/>
+		<Col_3 Value="1.4"/>
+		<Col_4 Value="0.2"/>
 	</Data_9>
-	<Data_10 Lign="['Bouledogue', 1.0]">
-		<Col_0 Value="Bouledogue"/>
-		<Col_1 Value="1.0"/>
+	<Data_10 Lign="[0.0, 4.9, 3.1, 1.5, 0.1]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.9"/>
+		<Col_2 Value="3.1"/>
+		<Col_3 Value="1.5"/>
+		<Col_4 Value="0.1"/>
 	</Data_10>
-	<Data_11 Lign="['Munchkin', 2.0]">
-		<Col_0 Value="Munchkin"/>
-		<Col_1 Value="2.0"/>
+	<Data_11 Lign="[0.0, 5.4, 3.7, 1.5, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.4"/>
+		<Col_2 Value="3.7"/>
+		<Col_3 Value="1.5"/>
+		<Col_4 Value="0.2"/>
 	</Data_11>
-	<Data_12 Lign="['Bouvier_bernois', 1.0]">
-		<Col_0 Value="Bouvier_bernois"/>
-		<Col_1 Value="1.0"/>
+	<Data_12 Lign="[0.0, 4.8, 3.4, 1.6, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.8"/>
+		<Col_2 Value="3.4"/>
+		<Col_3 Value="1.6"/>
+		<Col_4 Value="0.2"/>
 	</Data_12>
-	<Data_13 Lign="['Abyssin', 2.0]">
-		<Col_0 Value="Abyssin"/>
-		<Col_1 Value="2.0"/>
+	<Data_13 Lign="[0.0, 4.8, 3.0, 1.4, 0.1]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.8"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="1.4"/>
+		<Col_4 Value="0.1"/>
 	</Data_13>
-	<Data_14 Lign="['Bengal', 2.0]">
-		<Col_0 Value="Bengal"/>
-		<Col_1 Value="2.0"/>
+	<Data_14 Lign="[0.0, 4.3, 3.0, 1.1, 0.1]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.3"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="1.1"/>
+		<Col_4 Value="0.1"/>
 	</Data_14>
-	<Data_15 Lign="['Beagle', 1.0]">
-		<Col_0 Value="Beagle"/>
-		<Col_1 Value="1.0"/>
+	<Data_15 Lign="[0.0, 5.8, 4.0, 1.2, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.8"/>
+		<Col_2 Value="4.0"/>
+		<Col_3 Value="1.2"/>
+		<Col_4 Value="0.2"/>
 	</Data_15>
-	<Data_16 Lign="['Berger_australien', 1.0]">
-		<Col_0 Value="Berger_australien"/>
-		<Col_1 Value="1.0"/>
+	<Data_16 Lign="[0.0, 5.7, 4.4, 1.5, 0.4]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.7"/>
+		<Col_2 Value="4.4"/>
+		<Col_3 Value="1.5"/>
+		<Col_4 Value="0.4"/>
 	</Data_16>
-	<Data_17 Lign="['Safari', 2.0]">
-		<Col_0 Value="Safari"/>
-		<Col_1 Value="2.0"/>
+	<Data_17 Lign="[0.0, 5.4, 3.9, 1.3, 0.4]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.4"/>
+		<Col_2 Value="3.9"/>
+		<Col_3 Value="1.3"/>
+		<Col_4 Value="0.4"/>
 	</Data_17>
-	<Data_18 Lign="['Savannah', 2.0]">
-		<Col_0 Value="Savannah"/>
-		<Col_1 Value="2.0"/>
+	<Data_18 Lign="[0.0, 5.1, 3.5, 1.4, 0.3]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.1"/>
+		<Col_2 Value="3.5"/>
+		<Col_3 Value="1.4"/>
+		<Col_4 Value="0.3"/>
 	</Data_18>
-	<Data_19 Lign="['Sphynx', 2.0]">
-		<Col_0 Value="Sphynx"/>
-		<Col_1 Value="2.0"/>
+	<Data_19 Lign="[0.0, 5.7, 3.8, 1.7, 0.3]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.7"/>
+		<Col_2 Value="3.8"/>
+		<Col_3 Value="1.7"/>
+		<Col_4 Value="0.3"/>
 	</Data_19>
-	<Data_20 Lign="['Bichon', 1.0]">
-		<Col_0 Value="Bichon"/>
-		<Col_1 Value="1.0"/>
+	<Data_20 Lign="[0.0, 5.1, 3.8, 1.5, 0.3]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.1"/>
+		<Col_2 Value="3.8"/>
+		<Col_3 Value="1.5"/>
+		<Col_4 Value="0.3"/>
 	</Data_20>
-	<Data_21 Lign="['Dalmatien', 1.0]">
-		<Col_0 Value="Dalmatien"/>
-		<Col_1 Value="1.0"/>
+	<Data_21 Lign="[0.0, 5.4, 3.4, 1.7, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.4"/>
+		<Col_2 Value="3.4"/>
+		<Col_3 Value="1.7"/>
+		<Col_4 Value="0.2"/>
 	</Data_21>
+	<Data_22 Lign="[0.0, 5.1, 3.7, 1.5, 0.4]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.1"/>
+		<Col_2 Value="3.7"/>
+		<Col_3 Value="1.5"/>
+		<Col_4 Value="0.4"/>
+	</Data_22>
+	<Data_23 Lign="[0.0, 4.6, 3.6, 1.0, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.6"/>
+		<Col_2 Value="3.6"/>
+		<Col_3 Value="1.0"/>
+		<Col_4 Value="0.2"/>
+	</Data_23>
+	<Data_24 Lign="[0.0, 5.1, 3.3, 1.7, 0.5]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.1"/>
+		<Col_2 Value="3.3"/>
+		<Col_3 Value="1.7"/>
+		<Col_4 Value="0.5"/>
+	</Data_24>
+	<Data_25 Lign="[0.0, 4.8, 3.4, 1.9, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.8"/>
+		<Col_2 Value="3.4"/>
+		<Col_3 Value="1.9"/>
+		<Col_4 Value="0.2"/>
+	</Data_25>
+	<Data_26 Lign="[0.0, 5.0, 3.0, 1.6, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.0"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="1.6"/>
+		<Col_4 Value="0.2"/>
+	</Data_26>
+	<Data_27 Lign="[0.0, 5.0, 3.4, 1.6, 0.4]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.0"/>
+		<Col_2 Value="3.4"/>
+		<Col_3 Value="1.6"/>
+		<Col_4 Value="0.4"/>
+	</Data_27>
+	<Data_28 Lign="[0.0, 5.2, 3.5, 1.5, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.2"/>
+		<Col_2 Value="3.5"/>
+		<Col_3 Value="1.5"/>
+		<Col_4 Value="0.2"/>
+	</Data_28>
+	<Data_29 Lign="[0.0, 5.2, 3.4, 1.4, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.2"/>
+		<Col_2 Value="3.4"/>
+		<Col_3 Value="1.4"/>
+		<Col_4 Value="0.2"/>
+	</Data_29>
+	<Data_30 Lign="[0.0, 4.7, 3.2, 1.6, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.7"/>
+		<Col_2 Value="3.2"/>
+		<Col_3 Value="1.6"/>
+		<Col_4 Value="0.2"/>
+	</Data_30>
+	<Data_31 Lign="[0.0, 4.8, 3.1, 1.6, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.8"/>
+		<Col_2 Value="3.1"/>
+		<Col_3 Value="1.6"/>
+		<Col_4 Value="0.2"/>
+	</Data_31>
+	<Data_32 Lign="[0.0, 5.4, 3.4, 1.5, 0.4]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.4"/>
+		<Col_2 Value="3.4"/>
+		<Col_3 Value="1.5"/>
+		<Col_4 Value="0.4"/>
+	</Data_32>
+	<Data_33 Lign="[0.0, 5.2, 4.1, 1.5, 0.1]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.2"/>
+		<Col_2 Value="4.1"/>
+		<Col_3 Value="1.5"/>
+		<Col_4 Value="0.1"/>
+	</Data_33>
+	<Data_34 Lign="[0.0, 5.5, 4.2, 1.4, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.5"/>
+		<Col_2 Value="4.2"/>
+		<Col_3 Value="1.4"/>
+		<Col_4 Value="0.2"/>
+	</Data_34>
+	<Data_35 Lign="[0.0, 4.9, 3.1, 1.5, 0.1]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.9"/>
+		<Col_2 Value="3.1"/>
+		<Col_3 Value="1.5"/>
+		<Col_4 Value="0.1"/>
+	</Data_35>
+	<Data_36 Lign="[0.0, 5.0, 3.2, 1.2, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.0"/>
+		<Col_2 Value="3.2"/>
+		<Col_3 Value="1.2"/>
+		<Col_4 Value="0.2"/>
+	</Data_36>
+	<Data_37 Lign="[0.0, 5.5, 3.5, 1.3, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.5"/>
+		<Col_2 Value="3.5"/>
+		<Col_3 Value="1.3"/>
+		<Col_4 Value="0.2"/>
+	</Data_37>
+	<Data_38 Lign="[0.0, 4.9, 3.1, 1.5, 0.1]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.9"/>
+		<Col_2 Value="3.1"/>
+		<Col_3 Value="1.5"/>
+		<Col_4 Value="0.1"/>
+	</Data_38>
+	<Data_39 Lign="[0.0, 4.4, 3.0, 1.3, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.4"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="1.3"/>
+		<Col_4 Value="0.2"/>
+	</Data_39>
+	<Data_40 Lign="[0.0, 5.1, 3.4, 1.5, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.1"/>
+		<Col_2 Value="3.4"/>
+		<Col_3 Value="1.5"/>
+		<Col_4 Value="0.2"/>
+	</Data_40>
+	<Data_41 Lign="[0.0, 5.0, 3.5, 1.3, 0.3]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.0"/>
+		<Col_2 Value="3.5"/>
+		<Col_3 Value="1.3"/>
+		<Col_4 Value="0.3"/>
+	</Data_41>
+	<Data_42 Lign="[0.0, 4.5, 2.3, 1.3, 0.3]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.5"/>
+		<Col_2 Value="2.3"/>
+		<Col_3 Value="1.3"/>
+		<Col_4 Value="0.3"/>
+	</Data_42>
+	<Data_43 Lign="[0.0, 4.4, 3.2, 1.3, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.4"/>
+		<Col_2 Value="3.2"/>
+		<Col_3 Value="1.3"/>
+		<Col_4 Value="0.2"/>
+	</Data_43>
+	<Data_44 Lign="[0.0, 5.0, 3.5, 1.6, 0.6]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.0"/>
+		<Col_2 Value="3.5"/>
+		<Col_3 Value="1.6"/>
+		<Col_4 Value="0.6"/>
+	</Data_44>
+	<Data_45 Lign="[0.0, 5.1, 3.8, 1.9, 0.4]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.1"/>
+		<Col_2 Value="3.8"/>
+		<Col_3 Value="1.9"/>
+		<Col_4 Value="0.4"/>
+	</Data_45>
+	<Data_46 Lign="[0.0, 4.8, 3.0, 1.4, 0.3]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.8"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="1.4"/>
+		<Col_4 Value="0.3"/>
+	</Data_46>
+	<Data_47 Lign="[0.0, 5.1, 3.8, 1.6, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.1"/>
+		<Col_2 Value="3.8"/>
+		<Col_3 Value="1.6"/>
+		<Col_4 Value="0.2"/>
+	</Data_47>
+	<Data_48 Lign="[0.0, 4.6, 3.2, 1.4, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="4.6"/>
+		<Col_2 Value="3.2"/>
+		<Col_3 Value="1.4"/>
+		<Col_4 Value="0.2"/>
+	</Data_48>
+	<Data_49 Lign="[0.0, 5.3, 3.7, 1.5, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.3"/>
+		<Col_2 Value="3.7"/>
+		<Col_3 Value="1.5"/>
+		<Col_4 Value="0.2"/>
+	</Data_49>
+	<Data_50 Lign="[0.0, 5.0, 3.3, 1.4, 0.2]">
+		<Col_0 Value="0.0"/>
+		<Col_1 Value="5.0"/>
+		<Col_2 Value="3.3"/>
+		<Col_3 Value="1.4"/>
+		<Col_4 Value="0.2"/>
+	</Data_50>
+	<Data_51 Lign="[1.0, 7.0, 3.2, 4.7, 1.4]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="7.0"/>
+		<Col_2 Value="3.2"/>
+		<Col_3 Value="4.7"/>
+		<Col_4 Value="1.4"/>
+	</Data_51>
+	<Data_52 Lign="[1.0, 6.4, 3.2, 4.5, 1.5]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.4"/>
+		<Col_2 Value="3.2"/>
+		<Col_3 Value="4.5"/>
+		<Col_4 Value="1.5"/>
+	</Data_52>
+	<Data_53 Lign="[1.0, 6.9, 3.1, 4.9, 1.5]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.9"/>
+		<Col_2 Value="3.1"/>
+		<Col_3 Value="4.9"/>
+		<Col_4 Value="1.5"/>
+	</Data_53>
+	<Data_54 Lign="[1.0, 5.5, 2.3, 4.0, 1.3]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.5"/>
+		<Col_2 Value="2.3"/>
+		<Col_3 Value="4.0"/>
+		<Col_4 Value="1.3"/>
+	</Data_54>
+	<Data_55 Lign="[1.0, 6.5, 2.8, 4.6, 1.5]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.5"/>
+		<Col_2 Value="2.8"/>
+		<Col_3 Value="4.6"/>
+		<Col_4 Value="1.5"/>
+	</Data_55>
+	<Data_56 Lign="[1.0, 5.7, 2.8, 4.5, 1.3]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.7"/>
+		<Col_2 Value="2.8"/>
+		<Col_3 Value="4.5"/>
+		<Col_4 Value="1.3"/>
+	</Data_56>
+	<Data_57 Lign="[1.0, 6.3, 3.3, 4.7, 1.6]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.3"/>
+		<Col_2 Value="3.3"/>
+		<Col_3 Value="4.7"/>
+		<Col_4 Value="1.6"/>
+	</Data_57>
+	<Data_58 Lign="[1.0, 4.9, 2.4, 3.3, 1.0]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="4.9"/>
+		<Col_2 Value="2.4"/>
+		<Col_3 Value="3.3"/>
+		<Col_4 Value="1.0"/>
+	</Data_58>
+	<Data_59 Lign="[1.0, 6.6, 2.9, 4.6, 1.3]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.6"/>
+		<Col_2 Value="2.9"/>
+		<Col_3 Value="4.6"/>
+		<Col_4 Value="1.3"/>
+	</Data_59>
+	<Data_60 Lign="[1.0, 5.2, 2.7, 3.9, 1.4]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.2"/>
+		<Col_2 Value="2.7"/>
+		<Col_3 Value="3.9"/>
+		<Col_4 Value="1.4"/>
+	</Data_60>
+	<Data_61 Lign="[1.0, 5.0, 2.0, 3.5, 1.0]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.0"/>
+		<Col_2 Value="2.0"/>
+		<Col_3 Value="3.5"/>
+		<Col_4 Value="1.0"/>
+	</Data_61>
+	<Data_62 Lign="[1.0, 5.9, 3.0, 4.2, 1.5]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.9"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="4.2"/>
+		<Col_4 Value="1.5"/>
+	</Data_62>
+	<Data_63 Lign="[1.0, 6.0, 2.2, 4.0, 1.0]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.0"/>
+		<Col_2 Value="2.2"/>
+		<Col_3 Value="4.0"/>
+		<Col_4 Value="1.0"/>
+	</Data_63>
+	<Data_64 Lign="[1.0, 6.1, 2.9, 4.7, 1.4]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.1"/>
+		<Col_2 Value="2.9"/>
+		<Col_3 Value="4.7"/>
+		<Col_4 Value="1.4"/>
+	</Data_64>
+	<Data_65 Lign="[1.0, 5.6, 2.9, 3.6, 1.3]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.6"/>
+		<Col_2 Value="2.9"/>
+		<Col_3 Value="3.6"/>
+		<Col_4 Value="1.3"/>
+	</Data_65>
+	<Data_66 Lign="[1.0, 6.7, 3.1, 4.4, 1.4]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.7"/>
+		<Col_2 Value="3.1"/>
+		<Col_3 Value="4.4"/>
+		<Col_4 Value="1.4"/>
+	</Data_66>
+	<Data_67 Lign="[1.0, 5.6, 3.0, 4.5, 1.5]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.6"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="4.5"/>
+		<Col_4 Value="1.5"/>
+	</Data_67>
+	<Data_68 Lign="[1.0, 5.8, 2.7, 4.1, 1.0]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.8"/>
+		<Col_2 Value="2.7"/>
+		<Col_3 Value="4.1"/>
+		<Col_4 Value="1.0"/>
+	</Data_68>
+	<Data_69 Lign="[1.0, 6.2, 2.2, 4.5, 1.5]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.2"/>
+		<Col_2 Value="2.2"/>
+		<Col_3 Value="4.5"/>
+		<Col_4 Value="1.5"/>
+	</Data_69>
+	<Data_70 Lign="[1.0, 5.6, 2.5, 3.9, 1.1]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.6"/>
+		<Col_2 Value="2.5"/>
+		<Col_3 Value="3.9"/>
+		<Col_4 Value="1.1"/>
+	</Data_70>
+	<Data_71 Lign="[1.0, 5.9, 3.2, 4.8, 1.8]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.9"/>
+		<Col_2 Value="3.2"/>
+		<Col_3 Value="4.8"/>
+		<Col_4 Value="1.8"/>
+	</Data_71>
+	<Data_72 Lign="[1.0, 6.1, 2.8, 4.0, 1.3]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.1"/>
+		<Col_2 Value="2.8"/>
+		<Col_3 Value="4.0"/>
+		<Col_4 Value="1.3"/>
+	</Data_72>
+	<Data_73 Lign="[1.0, 6.3, 2.5, 4.9, 1.5]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.3"/>
+		<Col_2 Value="2.5"/>
+		<Col_3 Value="4.9"/>
+		<Col_4 Value="1.5"/>
+	</Data_73>
+	<Data_74 Lign="[1.0, 6.1, 2.8, 4.7, 1.2]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.1"/>
+		<Col_2 Value="2.8"/>
+		<Col_3 Value="4.7"/>
+		<Col_4 Value="1.2"/>
+	</Data_74>
+	<Data_75 Lign="[1.0, 6.4, 2.9, 4.3, 1.3]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.4"/>
+		<Col_2 Value="2.9"/>
+		<Col_3 Value="4.3"/>
+		<Col_4 Value="1.3"/>
+	</Data_75>
+	<Data_76 Lign="[1.0, 6.6, 3.0, 4.4, 1.4]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.6"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="4.4"/>
+		<Col_4 Value="1.4"/>
+	</Data_76>
+	<Data_77 Lign="[1.0, 6.8, 2.8, 4.8, 1.4]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.8"/>
+		<Col_2 Value="2.8"/>
+		<Col_3 Value="4.8"/>
+		<Col_4 Value="1.4"/>
+	</Data_77>
+	<Data_78 Lign="[1.0, 6.7, 3.0, 5.0, 1.7]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.7"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="5.0"/>
+		<Col_4 Value="1.7"/>
+	</Data_78>
+	<Data_79 Lign="[1.0, 6.0, 2.9, 4.5, 1.5]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.0"/>
+		<Col_2 Value="2.9"/>
+		<Col_3 Value="4.5"/>
+		<Col_4 Value="1.5"/>
+	</Data_79>
+	<Data_80 Lign="[1.0, 5.7, 2.6, 3.5, 1.0]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.7"/>
+		<Col_2 Value="2.6"/>
+		<Col_3 Value="3.5"/>
+		<Col_4 Value="1.0"/>
+	</Data_80>
+	<Data_81 Lign="[1.0, 5.5, 2.4, 3.8, 1.1]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.5"/>
+		<Col_2 Value="2.4"/>
+		<Col_3 Value="3.8"/>
+		<Col_4 Value="1.1"/>
+	</Data_81>
+	<Data_82 Lign="[1.0, 5.5, 2.4, 3.7, 1.0]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.5"/>
+		<Col_2 Value="2.4"/>
+		<Col_3 Value="3.7"/>
+		<Col_4 Value="1.0"/>
+	</Data_82>
+	<Data_83 Lign="[1.0, 5.8, 2.7, 3.9, 1.2]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.8"/>
+		<Col_2 Value="2.7"/>
+		<Col_3 Value="3.9"/>
+		<Col_4 Value="1.2"/>
+	</Data_83>
+	<Data_84 Lign="[1.0, 6.0, 2.7, 5.1, 1.6]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.0"/>
+		<Col_2 Value="2.7"/>
+		<Col_3 Value="5.1"/>
+		<Col_4 Value="1.6"/>
+	</Data_84>
+	<Data_85 Lign="[1.0, 5.4, 3.0, 4.5, 1.5]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.4"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="4.5"/>
+		<Col_4 Value="1.5"/>
+	</Data_85>
+	<Data_86 Lign="[1.0, 6.0, 3.4, 4.5, 1.6]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.0"/>
+		<Col_2 Value="3.4"/>
+		<Col_3 Value="4.5"/>
+		<Col_4 Value="1.6"/>
+	</Data_86>
+	<Data_87 Lign="[1.0, 6.7, 3.1, 4.7, 1.5]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.7"/>
+		<Col_2 Value="3.1"/>
+		<Col_3 Value="4.7"/>
+		<Col_4 Value="1.5"/>
+	</Data_87>
+	<Data_88 Lign="[1.0, 6.3, 2.3, 4.4, 1.3]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.3"/>
+		<Col_2 Value="2.3"/>
+		<Col_3 Value="4.4"/>
+		<Col_4 Value="1.3"/>
+	</Data_88>
+	<Data_89 Lign="[1.0, 5.6, 3.0, 4.1, 1.3]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.6"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="4.1"/>
+		<Col_4 Value="1.3"/>
+	</Data_89>
+	<Data_90 Lign="[1.0, 5.5, 2.5, 4.0, 1.3]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.5"/>
+		<Col_2 Value="2.5"/>
+		<Col_3 Value="4.0"/>
+		<Col_4 Value="1.3"/>
+	</Data_90>
+	<Data_91 Lign="[1.0, 5.5, 2.6, 4.4, 1.2]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.5"/>
+		<Col_2 Value="2.6"/>
+		<Col_3 Value="4.4"/>
+		<Col_4 Value="1.2"/>
+	</Data_91>
+	<Data_92 Lign="[1.0, 6.1, 3.0, 4.6, 1.4]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.1"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="4.6"/>
+		<Col_4 Value="1.4"/>
+	</Data_92>
+	<Data_93 Lign="[1.0, 5.8, 2.6, 4.0, 1.2]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.8"/>
+		<Col_2 Value="2.6"/>
+		<Col_3 Value="4.0"/>
+		<Col_4 Value="1.2"/>
+	</Data_93>
+	<Data_94 Lign="[1.0, 5.0, 2.3, 3.3, 1.0]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.0"/>
+		<Col_2 Value="2.3"/>
+		<Col_3 Value="3.3"/>
+		<Col_4 Value="1.0"/>
+	</Data_94>
+	<Data_95 Lign="[1.0, 5.6, 2.7, 4.2, 1.3]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.6"/>
+		<Col_2 Value="2.7"/>
+		<Col_3 Value="4.2"/>
+		<Col_4 Value="1.3"/>
+	</Data_95>
+	<Data_96 Lign="[1.0, 5.7, 3.0, 4.2, 1.2]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.7"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="4.2"/>
+		<Col_4 Value="1.2"/>
+	</Data_96>
+	<Data_97 Lign="[1.0, 5.7, 2.9, 4.2, 1.3]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.7"/>
+		<Col_2 Value="2.9"/>
+		<Col_3 Value="4.2"/>
+		<Col_4 Value="1.3"/>
+	</Data_97>
+	<Data_98 Lign="[1.0, 6.2, 2.9, 4.3, 1.3]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="6.2"/>
+		<Col_2 Value="2.9"/>
+		<Col_3 Value="4.3"/>
+		<Col_4 Value="1.3"/>
+	</Data_98>
+	<Data_99 Lign="[1.0, 5.1, 2.5, 3.0, 1.1]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.1"/>
+		<Col_2 Value="2.5"/>
+		<Col_3 Value="3.0"/>
+		<Col_4 Value="1.1"/>
+	</Data_99>
+	<Data_100 Lign="[1.0, 5.7, 2.8, 4.1, 1.3]">
+		<Col_0 Value="1.0"/>
+		<Col_1 Value="5.7"/>
+		<Col_2 Value="2.8"/>
+		<Col_3 Value="4.1"/>
+		<Col_4 Value="1.3"/>
+	</Data_100>
+	<Data_101 Lign="[2.0, 6.3, 3.3, 6.0, 2.5]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.3"/>
+		<Col_2 Value="3.3"/>
+		<Col_3 Value="6.0"/>
+		<Col_4 Value="2.5"/>
+	</Data_101>
+	<Data_102 Lign="[2.0, 5.8, 2.7, 5.1, 1.9]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="5.8"/>
+		<Col_2 Value="2.7"/>
+		<Col_3 Value="5.1"/>
+		<Col_4 Value="1.9"/>
+	</Data_102>
+	<Data_103 Lign="[2.0, 7.1, 3.0, 5.9, 2.1]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="7.1"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="5.9"/>
+		<Col_4 Value="2.1"/>
+	</Data_103>
+	<Data_104 Lign="[2.0, 6.3, 2.9, 5.6, 1.8]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.3"/>
+		<Col_2 Value="2.9"/>
+		<Col_3 Value="5.6"/>
+		<Col_4 Value="1.8"/>
+	</Data_104>
+	<Data_105 Lign="[2.0, 6.5, 3.0, 5.8, 2.2]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.5"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="5.8"/>
+		<Col_4 Value="2.2"/>
+	</Data_105>
+	<Data_106 Lign="[2.0, 7.6, 3.0, 6.6, 2.1]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="7.6"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="6.6"/>
+		<Col_4 Value="2.1"/>
+	</Data_106>
+	<Data_107 Lign="[2.0, 4.9, 2.5, 4.5, 1.7]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="4.9"/>
+		<Col_2 Value="2.5"/>
+		<Col_3 Value="4.5"/>
+		<Col_4 Value="1.7"/>
+	</Data_107>
+	<Data_108 Lign="[2.0, 7.3, 2.9, 6.3, 1.8]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="7.3"/>
+		<Col_2 Value="2.9"/>
+		<Col_3 Value="6.3"/>
+		<Col_4 Value="1.8"/>
+	</Data_108>
+	<Data_109 Lign="[2.0, 6.7, 2.5, 5.8, 1.8]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.7"/>
+		<Col_2 Value="2.5"/>
+		<Col_3 Value="5.8"/>
+		<Col_4 Value="1.8"/>
+	</Data_109>
+	<Data_110 Lign="[2.0, 7.2, 3.6, 6.1, 2.5]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="7.2"/>
+		<Col_2 Value="3.6"/>
+		<Col_3 Value="6.1"/>
+		<Col_4 Value="2.5"/>
+	</Data_110>
+	<Data_111 Lign="[2.0, 6.5, 3.2, 5.1, 2.0]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.5"/>
+		<Col_2 Value="3.2"/>
+		<Col_3 Value="5.1"/>
+		<Col_4 Value="2.0"/>
+	</Data_111>
+	<Data_112 Lign="[2.0, 6.4, 2.7, 5.3, 1.9]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.4"/>
+		<Col_2 Value="2.7"/>
+		<Col_3 Value="5.3"/>
+		<Col_4 Value="1.9"/>
+	</Data_112>
+	<Data_113 Lign="[2.0, 6.8, 3.0, 5.5, 2.1]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.8"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="5.5"/>
+		<Col_4 Value="2.1"/>
+	</Data_113>
+	<Data_114 Lign="[2.0, 5.7, 2.5, 5.0, 2.0]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="5.7"/>
+		<Col_2 Value="2.5"/>
+		<Col_3 Value="5.0"/>
+		<Col_4 Value="2.0"/>
+	</Data_114>
+	<Data_115 Lign="[2.0, 5.8, 2.8, 5.1, 2.4]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="5.8"/>
+		<Col_2 Value="2.8"/>
+		<Col_3 Value="5.1"/>
+		<Col_4 Value="2.4"/>
+	</Data_115>
+	<Data_116 Lign="[2.0, 6.4, 3.2, 5.3, 2.3]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.4"/>
+		<Col_2 Value="3.2"/>
+		<Col_3 Value="5.3"/>
+		<Col_4 Value="2.3"/>
+	</Data_116>
+	<Data_117 Lign="[2.0, 6.5, 3.0, 5.5, 1.8]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.5"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="5.5"/>
+		<Col_4 Value="1.8"/>
+	</Data_117>
+	<Data_118 Lign="[2.0, 7.7, 3.8, 6.7, 2.2]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="7.7"/>
+		<Col_2 Value="3.8"/>
+		<Col_3 Value="6.7"/>
+		<Col_4 Value="2.2"/>
+	</Data_118>
+	<Data_119 Lign="[2.0, 7.7, 2.6, 6.9, 2.3]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="7.7"/>
+		<Col_2 Value="2.6"/>
+		<Col_3 Value="6.9"/>
+		<Col_4 Value="2.3"/>
+	</Data_119>
+	<Data_120 Lign="[2.0, 6.0, 2.2, 5.0, 1.5]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.0"/>
+		<Col_2 Value="2.2"/>
+		<Col_3 Value="5.0"/>
+		<Col_4 Value="1.5"/>
+	</Data_120>
+	<Data_121 Lign="[2.0, 6.9, 3.2, 5.7, 2.3]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.9"/>
+		<Col_2 Value="3.2"/>
+		<Col_3 Value="5.7"/>
+		<Col_4 Value="2.3"/>
+	</Data_121>
+	<Data_122 Lign="[2.0, 5.6, 2.8, 4.9, 2.0]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="5.6"/>
+		<Col_2 Value="2.8"/>
+		<Col_3 Value="4.9"/>
+		<Col_4 Value="2.0"/>
+	</Data_122>
+	<Data_123 Lign="[2.0, 7.7, 2.8, 6.7, 2.0]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="7.7"/>
+		<Col_2 Value="2.8"/>
+		<Col_3 Value="6.7"/>
+		<Col_4 Value="2.0"/>
+	</Data_123>
+	<Data_124 Lign="[2.0, 6.3, 2.7, 4.9, 1.8]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.3"/>
+		<Col_2 Value="2.7"/>
+		<Col_3 Value="4.9"/>
+		<Col_4 Value="1.8"/>
+	</Data_124>
+	<Data_125 Lign="[2.0, 6.7, 3.3, 5.7, 2.1]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.7"/>
+		<Col_2 Value="3.3"/>
+		<Col_3 Value="5.7"/>
+		<Col_4 Value="2.1"/>
+	</Data_125>
+	<Data_126 Lign="[2.0, 7.2, 3.2, 6.0, 1.8]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="7.2"/>
+		<Col_2 Value="3.2"/>
+		<Col_3 Value="6.0"/>
+		<Col_4 Value="1.8"/>
+	</Data_126>
+	<Data_127 Lign="[2.0, 6.2, 2.8, 4.8, 1.8]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.2"/>
+		<Col_2 Value="2.8"/>
+		<Col_3 Value="4.8"/>
+		<Col_4 Value="1.8"/>
+	</Data_127>
+	<Data_128 Lign="[2.0, 6.1, 3.0, 4.9, 1.8]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.1"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="4.9"/>
+		<Col_4 Value="1.8"/>
+	</Data_128>
+	<Data_129 Lign="[2.0, 6.4, 2.8, 5.6, 2.1]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.4"/>
+		<Col_2 Value="2.8"/>
+		<Col_3 Value="5.6"/>
+		<Col_4 Value="2.1"/>
+	</Data_129>
+	<Data_130 Lign="[2.0, 7.2, 3.0, 5.8, 1.6]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="7.2"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="5.8"/>
+		<Col_4 Value="1.6"/>
+	</Data_130>
+	<Data_131 Lign="[2.0, 7.4, 2.8, 6.1, 1.9]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="7.4"/>
+		<Col_2 Value="2.8"/>
+		<Col_3 Value="6.1"/>
+		<Col_4 Value="1.9"/>
+	</Data_131>
+	<Data_132 Lign="[2.0, 7.9, 3.8, 6.4, 2.0]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="7.9"/>
+		<Col_2 Value="3.8"/>
+		<Col_3 Value="6.4"/>
+		<Col_4 Value="2.0"/>
+	</Data_132>
+	<Data_133 Lign="[2.0, 6.4, 2.8, 5.6, 2.2]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.4"/>
+		<Col_2 Value="2.8"/>
+		<Col_3 Value="5.6"/>
+		<Col_4 Value="2.2"/>
+	</Data_133>
+	<Data_134 Lign="[2.0, 6.3, 2.8, 5.1, 1.5]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.3"/>
+		<Col_2 Value="2.8"/>
+		<Col_3 Value="5.1"/>
+		<Col_4 Value="1.5"/>
+	</Data_134>
+	<Data_135 Lign="[2.0, 6.1, 2.6, 5.6, 1.4]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.1"/>
+		<Col_2 Value="2.6"/>
+		<Col_3 Value="5.6"/>
+		<Col_4 Value="1.4"/>
+	</Data_135>
+	<Data_136 Lign="[2.0, 7.7, 3.0, 6.1, 2.3]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="7.7"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="6.1"/>
+		<Col_4 Value="2.3"/>
+	</Data_136>
+	<Data_137 Lign="[2.0, 6.3, 3.4, 5.6, 2.4]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.3"/>
+		<Col_2 Value="3.4"/>
+		<Col_3 Value="5.6"/>
+		<Col_4 Value="2.4"/>
+	</Data_137>
+	<Data_138 Lign="[2.0, 6.4, 3.1, 5.5, 1.8]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.4"/>
+		<Col_2 Value="3.1"/>
+		<Col_3 Value="5.5"/>
+		<Col_4 Value="1.8"/>
+	</Data_138>
+	<Data_139 Lign="[2.0, 6.0, 3.0, 4.8, 1.8]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.0"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="4.8"/>
+		<Col_4 Value="1.8"/>
+	</Data_139>
+	<Data_140 Lign="[2.0, 6.9, 3.1, 5.4, 2.1]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.9"/>
+		<Col_2 Value="3.1"/>
+		<Col_3 Value="5.4"/>
+		<Col_4 Value="2.1"/>
+	</Data_140>
+	<Data_141 Lign="[2.0, 6.7, 3.1, 5.6, 2.4]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.7"/>
+		<Col_2 Value="3.1"/>
+		<Col_3 Value="5.6"/>
+		<Col_4 Value="2.4"/>
+	</Data_141>
+	<Data_142 Lign="[2.0, 6.9, 3.1, 5.1, 2.3]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.9"/>
+		<Col_2 Value="3.1"/>
+		<Col_3 Value="5.1"/>
+		<Col_4 Value="2.3"/>
+	</Data_142>
+	<Data_143 Lign="[2.0, 5.8, 2.7, 5.1, 1.9]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="5.8"/>
+		<Col_2 Value="2.7"/>
+		<Col_3 Value="5.1"/>
+		<Col_4 Value="1.9"/>
+	</Data_143>
+	<Data_144 Lign="[2.0, 6.8, 3.2, 5.9, 2.3]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.8"/>
+		<Col_2 Value="3.2"/>
+		<Col_3 Value="5.9"/>
+		<Col_4 Value="2.3"/>
+	</Data_144>
+	<Data_145 Lign="[2.0, 6.7, 3.3, 5.7, 2.5]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.7"/>
+		<Col_2 Value="3.3"/>
+		<Col_3 Value="5.7"/>
+		<Col_4 Value="2.5"/>
+	</Data_145>
+	<Data_146 Lign="[2.0, 6.7, 3.0, 5.2, 2.3]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.7"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="5.2"/>
+		<Col_4 Value="2.3"/>
+	</Data_146>
+	<Data_147 Lign="[2.0, 6.3, 2.5, 5.0, 1.9]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.3"/>
+		<Col_2 Value="2.5"/>
+		<Col_3 Value="5.0"/>
+		<Col_4 Value="1.9"/>
+	</Data_147>
+	<Data_148 Lign="[2.0, 6.5, 3.0, 5.2, 2.0]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.5"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="5.2"/>
+		<Col_4 Value="2.0"/>
+	</Data_148>
+	<Data_149 Lign="[2.0, 6.2, 3.4, 5.4, 2.3]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="6.2"/>
+		<Col_2 Value="3.4"/>
+		<Col_3 Value="5.4"/>
+		<Col_4 Value="2.3"/>
+	</Data_149>
+	<Data_150 Lign="[2.0, 5.9, 3.0, 5.1, 1.8]">
+		<Col_0 Value="2.0"/>
+		<Col_1 Value="5.9"/>
+		<Col_2 Value="3.0"/>
+		<Col_3 Value="5.1"/>
+		<Col_4 Value="1.8"/>
+	</Data_150>
 </root>
