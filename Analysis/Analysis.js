@@ -2,25 +2,12 @@
   Author : Marina Boudin Coralie Muller
 */
 
-function result_python(response){
-  console.log("SUCCESS")
-  console.log(response);
-}
 
-function call_python(file_name){
-  $.post({
-    type:'get',
-    url:'Test.py',
-    datatype:'json',
-    cache:false,
-    async:'asynchronous',
-    success:function(response){
-      result_python(response);
-    },
-    error:function(response){
-      console.log(response);
-    }
-  })
+function modify_the_file(file_name){
+  var fileSystem=new ActiveXObject("Scripting.FileSystemObject");
+  var monfichier=fileSystem.OpenTextFile("iris.csv", 2 ,true);
+  console.log("coucou");
+  alert(monfichier.ReadAll());
 }
 
 function move_onglet(volet){
@@ -51,7 +38,8 @@ function upload_the_file(){
   else{
     no.style.display="none";
     var data_path=files[0].name;
-    call_python(data_path);
+    console.log(files[0]);
+    modify_the_file(data_path);
   }
 }
 
@@ -64,7 +52,10 @@ function setupListener(){
     });
   });
   var upload=document.getElementById("upload");
-  upload.addEventListener("click",upload_the_file);
+  console.log(upload);
+  upload.addEventListener("click",function(){
+    upload_the_file();
+  });
 }
 
 let Analysis =[

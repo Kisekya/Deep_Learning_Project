@@ -31,9 +31,7 @@
       <form>
         <input type='file' id="my_data" class="file" accept=".csv" name="my_data">
       </form>
-      <p><h4> HELP</h4> Your file must be in CSV format with the name/path of the data in the first column </p>
-      <p><h4> WARNING</h4> A generated XML file is gonna be created and saved in the same repository than the uploaded file</p>
-      <button id="upload"> Upload my file </button>
+      <button id="upload"> upload the file </button>
       <p id="data_upload_state" style="display:none;"> No file selected </p>
     </div>
     <div class="div-visualisation" id="div-visualisation">
@@ -51,8 +49,6 @@
   </div>
   <div class="div-Results" id="div-Results" style="display:none;">
     <h1> Results </h1>
-    <iframe src="http://127.0.0.1:5000/" id="my-iframe" scrolling="yes"></iframe>
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="Analysis.js"></script>
 </body>
