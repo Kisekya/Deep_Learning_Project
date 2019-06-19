@@ -2,13 +2,27 @@
   Author : Marina Boudin Coralie Muller
 */
 
+function modify(file){
+  console.log(file);
+  let n=1;
+  for (let k =0;k<file.length;k++){
+    if (file[k]==="\n"){
+      console.log(n);
+      n++;
+    }
+  }
+}
 
-function modify_the_file(file_name){
+function get_the_file(file_name){
   var file = new FileReader();
+  var my_file;
   var display_area=document.getElementById("div-visualisation");
-  file.onload = function(e) {display_area.innerText = file.result;}
+  file.onload = function(e) {
+    display_area.innerText = file.result;
+    my_file=file.result;
+    modify(my_file);
+  }
   file.readAsText(file_name);
-  console.log(typeof(file.result));
 }
 
 function move_onglet(volet){
@@ -40,7 +54,7 @@ function upload_the_file(){
     no.style.display="none";
     var data_path=files[0].name;
     console.log(files[0]);
-    modify_the_file(files[0]);
+    get_the_file(files[0]);
   }
 }
 
