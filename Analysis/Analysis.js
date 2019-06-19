@@ -4,10 +4,8 @@
 
 
 function modify_the_file(file_name){
-  var fileSystem=new ActiveXObject("Scripting.FileSystemObject");
-  var monfichier=fileSystem.OpenTextFile("iris.csv", 2 ,true);
-  console.log("coucou");
-  alert(monfichier.ReadAll());
+  var file = new FileReader();
+  reader.readAsText(file_name);
 }
 
 function move_onglet(volet){
@@ -39,7 +37,7 @@ function upload_the_file(){
     no.style.display="none";
     var data_path=files[0].name;
     console.log(files[0]);
-    modify_the_file(data_path);
+    modify_the_file(files[0]);
   }
 }
 
@@ -94,5 +92,5 @@ var select_one="Data";
 
 window.requestFileSystem  = window.requestFileSystem || window.webkitRequestFileSystem;
 
-window.requestFileSystem(type, size, successCallback, opt_errorCallback);
+window.requestFileSystem(window.TEMPORARY, size, successCallback, opt_errorCallback);
 window.addEventListener("load",setupListener);
