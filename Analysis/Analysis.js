@@ -5,7 +5,7 @@
 
 function modify_the_file(file_name){
   var file = new FileReader();
-  reader.readAsText(file_name);
+  file.readAsText(file_name);
 }
 
 function move_onglet(volet){
