@@ -5,7 +5,10 @@
 
 function modify_the_file(file_name){
   var file = new FileReader();
+  var display_area=document.getElementById("div-visualisation");
+  file.onload = function(e) {display_area.innerText = file.result;}
   file.readAsText(file_name);
+  console.log(file);
 }
 
 function move_onglet(volet){
