@@ -100,3 +100,24 @@ div{
   margin-right: 10%;
   text-align: left;
 }
+
+.div-visualisation{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+table, th, td{
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px #2c001eff solid;
+  border-collapse: collapse;
+}
+
+table{
+  width: 100%;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+}

@@ -2,23 +2,72 @@
   Author : Marina Boudin Coralie Muller
 */
 
-function modify(file){
-  console.log(file);
-  let n=1;
-  for (let k =0;k<file.length;k++){
-    if (file[k]==="\n"){
-      console.log(n);
-      n++;
+
+function visualisation(datas){
+  var display_area=document.getElementById("div-visualisation");
+  var table = document.createElement("table");
+  var title_band=document.createElement("tr");
+  for (let title =0;title<datas[0].length+1;title++){
+    if (title===0){
+      var title_cell=document.createElement("td");
+      title_band.appendChild(title_cell);
+    }
+    else{
+      var title_cell=document.createElement("th");
+      var text=document.createTextNode("Column "+title.toString());
+      title_cell.appendChild(text);
+      title_band.appendChild(title_cell);
     }
   }
+  table.appendChild(title_band);
+  for(let ligne = 0; ligne<datas.length;ligne++){
+    var tr = document.createElement("tr");
+    for (let colonne=0;colonne<datas[ligne].length+1;colonne++){
+      if (colonne===0){
+        var td = document.createElement("th");
+        var lign=ligne+1;
+        var text = document.createTextNode("Lign "+lign.toString());
+        td.appendChild(text);
+        tr.appendChild(td);
+      }
+      else {
+        var td = document.createElement("td");
+        var text = document.createTextNode(datas[ligne][colonne-1]);
+        td.appendChild(text);
+        tr.appendChild(td);
+      }
+    }
+    table.appendChild(tr);
+  }
+  display_area.appendChild(table);
+}
+
+function modify(file){
+  let n=1;
+  var file_split=file.split("\n");
+  if (file_split[file_split.length-1]===""){
+    file_split.pop();
+  }
+  var tableau=[];
+  for (let data=0;data<file_split.length;data++){
+    var ligne=file_split[data].split(",");
+    var ligne_map=ligne.map(x => parseFloat(x));
+    tableau.push(ligne_map);
+    console.log(ligne_map);
+  }
+  visualisation(tableau);
+  // for (let k =0;k<file.length;k++){
+  //   if (file[k]==="\n"){
+  //     console.log(n);
+  //     n++;
+  //   }
+  // }
 }
 
 function get_the_file(file_name){
   var file = new FileReader();
   var my_file;
-  var display_area=document.getElementById("div-visualisation");
   file.onload = function(e) {
-    display_area.innerText = file.result;
     my_file=file.result;
     modify(my_file);
   }
