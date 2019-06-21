@@ -2,10 +2,20 @@
   Author : Marina Boudin Coralie Muller
 */
 
+function write(){
+  var table_html=document.getElementById("table-visualisation");
+  var copy = table_html.cloneNode(true);
+  copy.removeChild(copy.childNodes[0]);
+  for (let child=0; child<copy.childNodes.length;child++){
+    let children=copy.childNodes[child];
+    children.removeChild(children.childNodes[0]);
+  }
+	var temp = XLSX.utils.table_to_book(copy, {sheet:"Sheet JS"});
+  return XLSX.writeFile(temp,('test.' + 'csv'));
+}
 
 function visualisation(datas){
   var display_area=document.getElementById("div-visualisation");
-  console.log(display_area);
   if (display_area!=null){
     display_area.innerHTML="";
   }
@@ -16,6 +26,7 @@ function visualisation(datas){
     div.appendChild(display_area);
   }
   var table = document.createElement("table");
+  table.id="table-visualisation";
   var title_band=document.createElement("tr");
   for (let title =0;title<datas[0].length+1;title++){
     if (title===0){
@@ -42,6 +53,7 @@ function visualisation(datas){
       }
       else {
         var td = document.createElement("td");
+        td.classList.add("td_value");
         var text = document.createTextNode(datas[ligne][colonne-1]);
         td.appendChild(text);
         tr.appendChild(td);
@@ -50,9 +62,11 @@ function visualisation(datas){
     table.appendChild(tr);
   }
   display_area.appendChild(table);
+  var download = document.getElementById("download");
+  download.style.display="block";
 }
 
-function modify(file){
+function csv_to_list(file){
   let n=1;
   var file_split=file.split("\n");
   if (file_split[file_split.length-1]===""){
@@ -63,15 +77,8 @@ function modify(file){
     var ligne=file_split[data].split(",");
     var ligne_map=ligne.map(x => parseFloat(x));
     tableau.push(ligne_map);
-    console.log(ligne_map);
   }
   visualisation(tableau);
-  // for (let k =0;k<file.length;k++){
-  //   if (file[k]==="\n"){
-  //     console.log(n);
-  //     n++;
-  //   }
-  // }
 }
 
 function to_csv(workbook) {
@@ -97,15 +104,14 @@ function get_the_file(file_name){
       var temp = XLSX.read(btoa(arr), {type: 'base64'});
       var output = "";
       output=to_csv(temp);
-      modify(output);
+      csv_to_list(output);
     };
     file.readAsArrayBuffer(file_name);
   }
   else if (csv!==-1) {
     file.onload = function(e) {
       my_file=file.result;
-      console.log(my_file);
-      modify(my_file);
+      csv_to_list(my_file);
     }
     file.readAsText(file_name);
   }
@@ -139,7 +145,6 @@ function upload_the_file(){
   else{
     no.style.display="none";
     var data_path=files[0].name;
-    console.log(files[0]);
     get_the_file(files[0]);
   }
 }
@@ -153,10 +158,9 @@ function setupListener(){
     });
   });
   var upload=document.getElementById("upload");
-  console.log(upload);
-  upload.addEventListener("click",function(){
-    upload_the_file();
-  });
+  upload.addEventListener("click",upload_the_file);
+  var download = document.getElementById("download");
+  download.addEventListener("click",write);
 }
 
 let Analysis =[
@@ -182,15 +186,5 @@ let Analysis =[
   }
 ]
 var select_one="Data";
-
-// var xhttp = new XMLHttpRequest();
-// xhttp.onreadystatechange = function(){
-//   if (this.readyState==4 && this.status==200){
-//     var xmlDoc = this.responseXML;
-//     document.getElementById("div-visualisation").innerHTML=xmlDoc.getElementsByTagNAME("root")[0].childNodes[0].nodeValue;
-//   }
-// }
-// xhttp.open("GET","https://github.com/Kisekya/Deep_Learning_Project/blob/master/Analysis/file.xml?fbclid=IwAR0GAQJkVxz4u4jrvIEBADaj3NEURlBNH5uO7d5zllvEC9vCCAwxM5x79a8",true);
-// xhttp.send();
 
 window.addEventListener("load",setupListener);

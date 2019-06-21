@@ -121,3 +121,7 @@ td {
   text-align: center;
   padding: 5px;
 }
+
+.td_value{
+  -webkit-user-modify: read-write;
+}
