@@ -5,6 +5,16 @@
 
 function visualisation(datas){
   var display_area=document.getElementById("div-visualisation");
+  console.log(display_area);
+  if (display_area!=null){
+    display_area.innerHTML="";
+  }
+  else{
+    display_area=document.createElement("div");
+    display_area.id="div-visualisation";
+    var div = document.getElementById("div-Data");
+    div.appendChild(display_area);
+  }
   var table = document.createElement("table");
   var title_band=document.createElement("tr");
   for (let title =0;title<datas[0].length+1;title++){
