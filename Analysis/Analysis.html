@@ -29,7 +29,7 @@
     <div class="div-select-data" id="div-select-data">
       <h2> Open your file </h2>
       <form>
-        <input type='file' id="my_data" class="file" accept=".csv" name="my_data">
+        <input type='file' id="my_data" class="file" name="my_data" accept=".csv, .ods, .xlsx">
       </form>
       <button id="upload"> upload the file </button>
       <p id="data_upload_state" style="display:none;"> No file selected </p>
@@ -50,5 +50,6 @@
   <div class="div-Results" id="div-Results" style="display:none;">
     <h1> Results </h1>
   </div>
+  <script lang="javascript" src="xlsx.full.min.js"></script>
   <script src="Analysis.js"></script>
 </body>

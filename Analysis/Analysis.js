@@ -64,14 +64,41 @@ function modify(file){
   // }
 }
 
+function to_csv(workbook) {
+    var result = [];
+    workbook.SheetNames.forEach(function(sheetName) {
+        var csv = XLSX.utils.sheet_to_csv(workbook.Sheets[sheetName]);
+        if(csv.length > 0){
+            result.push(csv);
+        }
+    });
+    return result.join("\n");
+}
+
 function get_the_file(file_name){
   var file = new FileReader();
-  var my_file;
-  file.onload = function(e) {
-    my_file=file.result;
-    modify(my_file);
+  var ods = file_name.name.search(".ods");
+  var xlsx = file_name.name.search(".xlsx");
+  var csv = file_name.name.search(".csv");
+  if (ods!==-1 || xlsx!==-1){
+    file.onload = function(e) {
+      var data = file.result;
+      var arr = String.fromCharCode.apply(null, new Uint8Array(data));
+      var temp = XLSX.read(btoa(arr), {type: 'base64'});
+      var output = "";
+      output=to_csv(temp);
+      modify(output);
+    };
+    file.readAsArrayBuffer(file_name);
   }
-  file.readAsText(file_name);
+  else if (csv!==-1) {
+    file.onload = function(e) {
+      my_file=file.result;
+      console.log(my_file);
+      modify(my_file);
+    }
+    file.readAsText(file_name);
+  }
 }
 
 function move_onglet(volet){
