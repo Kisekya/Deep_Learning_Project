@@ -31,8 +31,11 @@
       <form>
         <input type='file' id="my_data" class="file" name="my_data" accept=".csv, .ods, .xlsx">
       </form>
+      <p> Before uploading your file : Are your datas names in text format? </p>
+      <input type="checkbox" id="check" value="ok"> Check if yes.
       <button id="upload"> upload the file </button>
       <p> You can download your file : he is ready for Pytorch </p>
+      <p style="display:none;" id="file_name">Nom du nouveau fichier : <input type="text" id="name_file" class="name_file" name="name_file" value="new_file"></p>
       <button id="download" style="display:none"> Download my file </button>
       <p id="data_upload_state" style="display:none;"> No file selected </p>
       <p> You can modify directly the values of your table on it and download the changes </p>

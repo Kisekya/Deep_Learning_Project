@@ -9,9 +9,10 @@ function write(){
   for (let child=0; child<copy.childNodes.length;child++){
     let children=copy.childNodes[child];
     children.removeChild(children.childNodes[0]);
-  }
+  };
 	var temp = XLSX.utils.table_to_book(copy, {sheet:"Sheet JS"});
-  return XLSX.writeFile(temp,('test.' + 'csv'));
+  var text=document.getElementById("name_file");
+  return XLSX.writeFile(temp,(text.value + '.csv'));
 }
 
 function visualisation(datas){
@@ -62,11 +63,32 @@ function visualisation(datas){
     table.appendChild(tr);
   }
   display_area.appendChild(table);
-  var download = document.getElementById("download");
-  download.style.display="block";
+}
+
+function str_to_int(tableau){
+  var map={};
+  let nb=0;
+  for(let lign=0;lign<tableau.length;lign++){
+    for(let column=0;column<tableau[lign].length;column++){
+      if(typeof(tableau[lign][column])=="string"){
+        if(map[tableau[lign][column]]==undefined){
+          map[tableau[lign][column]]=nb;
+          tableau[lign][column]=nb;
+          nb++;
+        }
+        else {
+          tableau[lign][column]=map[tableau[lign][column]];
+        }
+      }
+    }
+  }
+  return map;
 }
 
 function csv_to_list(file){
+  var check = document.getElementById("check");
+  if (check.checked===true){
+  }
   let n=1;
   var file_split=file.split("\n");
   if (file_split[file_split.length-1]===""){
@@ -75,8 +97,19 @@ function csv_to_list(file){
   var tableau=[];
   for (let data=0;data<file_split.length;data++){
     var ligne=file_split[data].split(",");
-    var ligne_map=ligne.map(x => parseFloat(x));
+    var ligne_map=ligne.map(x => (isNaN(parseFloat(x))?x:parseFloat(x)));
     tableau.push(ligne_map);
+  }
+  map=str_to_int(tableau);
+  if(Object.keys(map).length!==0){
+    var changes = document.createElement("div");
+    for( var obj in map){
+      var text=document.createElement("p");
+      text.innerHTML=obj+" = "+ map[obj];
+      changes.appendChild(text);
+    }
+    var div=document.getElementById("div-Data");
+    div.appendChild(changes);
   }
   visualisation(tableau);
 }
@@ -97,6 +130,7 @@ function get_the_file(file_name){
   var ods = file_name.name.search(".ods");
   var xlsx = file_name.name.search(".xlsx");
   var csv = file_name.name.search(".csv");
+
   if (ods!==-1 || xlsx!==-1){
     file.onload = function(e) {
       var data = file.result;
@@ -136,6 +170,8 @@ function move_onglet(volet){
 }
 
 function upload_the_file(){
+
+  console.log(check.checked);
   var the_input=document.getElementById("my_data");
   var files=the_input.files;
   var no = document.getElementById("data_upload_state");
@@ -146,6 +182,10 @@ function upload_the_file(){
     no.style.display="none";
     var data_path=files[0].name;
     get_the_file(files[0]);
+    var text = document.getElementById("file_name");
+    text.style.display="block";
+    var download = document.getElementById("download");
+    download.style.display="block";
   }
 }
 
