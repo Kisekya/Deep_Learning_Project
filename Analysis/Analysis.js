@@ -86,9 +86,6 @@ function str_to_int(tableau){
 }
 
 function csv_to_list(file){
-  var check = document.getElementById("check");
-  if (check.checked===true){
-  }
   let n=1;
   var file_split=file.split("\n");
   if (file_split[file_split.length-1]===""){
@@ -170,8 +167,6 @@ function move_onglet(volet){
 }
 
 function upload_the_file(){
-
-  console.log(check.checked);
   var the_input=document.getElementById("my_data");
   var files=the_input.files;
   var no = document.getElementById("data_upload_state");
