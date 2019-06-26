@@ -90,20 +90,39 @@ div{
   border: 1px solid #999999;
 }
 
+.div-Data{
+  display: block;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 .div-presentation{
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .div-select-data {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: left;
 }
 
 .div-visualisation{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.div-changes{
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
+}
+
+.download-space{
+  display: none;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
 }
 
 table, th, td{

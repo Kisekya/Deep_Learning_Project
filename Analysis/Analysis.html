@@ -18,30 +18,37 @@
 </ul>
 <ul class="ul-analysis-bar">
   <li class="li-analysis-bar"><a class="a-analysis-bar" id="Data" style="color:#2c001eff;background-color:#ffffff">Data</a></li>
-  <li class="li-analysis-bar"><a class="a-analysis-bar" id="Model">Model</a></li>
+  <!-- <li class="li-analysis-bar"><a class="a-analysis-bar" id="Model">Model</a></li>
   <li class="li-analysis-bar"><a class="a-analysis-bar" id="Hyperparameters">Hyperparameters</a></li>
   <li class="li-analysis-bar"><a class="a-analysis-bar" id="Training">Training</a></li>
-  <li class="li-analysis-bar"><a class="a-analysis-bar" id="Results">Results</a></li>
+  <li class="li-analysis-bar"><a class="a-analysis-bar" id="Results">Results</a></li> -->
 </ul>
 <body style="background">
-  <div class="div-Data" id="div-Data" style="display:block;">
+  <div class="div-Data" id="div-Data">
     <h1> Data </h1>
+    <p> Upload your file to transform it to a new one which can be use on pytorch</p>
     <div class="div-select-data" id="div-select-data">
       <h2> Open your file </h2>
+      <h3> - First step : select your file -</h3>
       <form>
         <input type='file' id="my_data" class="file" name="my_data" accept=".csv, .ods, .xlsx">
       </form>
-      <!-- <p> Before uploading your file : Are your datas names in text format? </p> -->
-      <!-- <input type="checkbox" id="check" value="ok"> Check if yes. -->
-      <button id="upload"> upload the file </button>
-      <p> You can download your file : he is ready for Pytorch </p>
+      <h3> - Second step : The file content : chose if you want to keep image's path on your file - </h3>
+      <p> Do you want to keep image path if there is some of them in your file ? </p>
+      <input type="checkbox" id="check" value="ok"> Check if you don't want to keep them.
+      <h3> - Third step : Upload your file - </h3>
+      <button id="upload"> Upload the file </button>
+    </div>
+    <div class="download-space" id="download-space">
+      <h3> - Fourth step : Chose the new name of the file that you want to download - </h3> <p> You can download your file : he is ready for Pytorch </p>
       <p style="display:none;" id="file_name">Name of the new file : <input type="text" id="name_file" class="name_file" name="name_file" value="new_file"></p>
-      <button id="download" style="display:none"> Download my file </button>
+      <h3> - Fifth step : Download the file -</h3>
+      <button id="download" > Download my file </button> </p>
       <p id="data_upload_state" style="display:none;"> No file selected </p>
       <p> You can modify directly the values of your table on it and download the changes </p>
     </div>
   </div>
-  <div class="div-Model" id="div-Model" style="display:none;">
+  <!-- <div class="div-Model" id="div-Model" style="display:none;">
     <h1> Model </h1>
   </div>
   <div class="div-Hyperparameters" id="div-Hyperparameters" style="display:none;">
@@ -52,7 +59,7 @@
   </div>
   <div class="div-Results" id="div-Results" style="display:none;">
     <h1> Results </h1>
-  </div>
+  </div> -->
   <script lang="javascript" src="xlsx.full.min.js"></script>
   <script src="Analysis.js"></script>
 </body>

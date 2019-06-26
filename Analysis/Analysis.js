@@ -23,6 +23,7 @@ function visualisation(datas){
   else{
     display_area=document.createElement("div");
     display_area.id="div-visualisation";
+    display_area.classList.add("div-visualisation");
     var div = document.getElementById("div-Data");
     div.appendChild(display_area);
   }
@@ -65,19 +66,46 @@ function visualisation(datas){
   display_area.appendChild(table);
 }
 
+function search_image(value){
+  var res=[]
+  var bmp = value.search(".bmp");
+  res.push(bmp);
+  var tiff = value.search(".tiff");
+  res.push(tiff);
+  var jpg = value.search(".jpg");
+  res.push(jpg);
+  var jpeg = value.search(".jpeg");
+  res.push(jpeg);
+  var gif = value.search(".gif");
+  res.push(gif);
+  var png = value.search(".png");
+  res.push(png);
+  for (let r=0; r<res.length;r++){
+    if (res[r]!==-1){
+      return true;
+    }
+  }
+  return false;
+}
+
 function str_to_int(tableau){
   var map={};
   let nb=0;
   for(let lign=0;lign<tableau.length;lign++){
     for(let column=0;column<tableau[lign].length;column++){
       if(typeof(tableau[lign][column])=="string"){
-        if(map[tableau[lign][column]]==undefined){
-          map[tableau[lign][column]]=nb;
-          tableau[lign][column]=nb;
-          nb++;
-        }
-        else {
-          tableau[lign][column]=map[tableau[lign][column]];
+        var checker = document.getElementById("check");
+        console.log(checker.checked);
+        let image=search_image(tableau[lign][column]);
+        if (image===false || (image===true && checker.checked===true)){
+          if(map[tableau[lign][column]]==undefined){
+            map[tableau[lign][column]]=nb;
+            tableau[lign][column]=nb;
+            nb++;
+          }
+          else {
+            tableau[lign][column]=map[tableau[lign][column]];
+          }
         }
       }
     }
@@ -99,14 +127,25 @@ function csv_to_list(file){
   }
   map=str_to_int(tableau);
   if(Object.keys(map).length!==0){
-    var changes = document.createElement("div");
+    var changes=document.getElementById("div-changes");
+    if (changes!=null){
+      changes.innerHTML="";
+    }
+    else{
+      changes=document.createElement("div");
+      changes.id="div-changes";
+      changes.classList.add("div-changes");
+      var text=document.createElement("p");
+      text.innerHTML="<h3> - The changes that was made on your file - </h3>";
+      changes.appendChild(text);
+      var div = document.getElementById("div-Data");
+      div.appendChild(changes);
+    }
     for( var obj in map){
       var text=document.createElement("p");
-      text.innerHTML=obj+" = "+ map[obj];
+      text.innerHTML="=> <b>"+obj+"</b> = "+ map[obj];
       changes.appendChild(text);
     }
-    var div=document.getElementById("div-Data");
-    div.appendChild(changes);
   }
   visualisation(tableau);
 }
@@ -127,7 +166,6 @@ function get_the_file(file_name){
   var ods = file_name.name.search(".ods");
   var xlsx = file_name.name.search(".xlsx");
   var csv = file_name.name.search(".csv");
-
   if (ods!==-1 || xlsx!==-1){
     file.onload = function(e) {
       var data = file.result;
@@ -179,7 +217,7 @@ function upload_the_file(){
     get_the_file(files[0]);
     var text = document.getElementById("file_name");
     text.style.display="block";
-    var download = document.getElementById("download");
+    var download = document.getElementById("download-space");
     download.style.display="block";
   }
 }
@@ -201,24 +239,24 @@ function setupListener(){
 let Analysis =[
   {
     name :"Data",
-    division:"div-Data"
-  },
-  {
-    name:"Model",
-    division :"div-Model"
-  },
-  {
-    name:"Hyperparameters",
-    division :"div-Hyperparameters"
-  },
-  {
-    name:"Training" ,
-    division : "div-Training"
-  },
-  {
-    name:"Results" ,
-    division : "div-Results"
-  }
+    division:"div-Data"}
+  // },
+  // {
+  //   name:"Model",
+  //   division :"div-Model"
+  // },
+  // {
+  //   name:"Hyperparameters",
+  //   division :"div-Hyperparameters"
+  // },
+  // {
+  //   name:"Training" ,
+  //   division : "div-Training"
+  // },
+  // {
+  //   name:"Results" ,
+  //   division : "div-Results"
+  // }
 ]
 var select_one="Data";
 
